@@ -1,0 +1,66 @@
+body {
+  background-color: #565c67;
+  overflow: hidden;
+  width: 100vw;
+  height: 1000vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.topBarContainer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  position: relative;
+  height: 15vh;
+  top: 0px;
+  left: 0px;
+}
+.topBarContainer .topBarTitle {
+  height: 11vh;
+  width: 100%;
+  position: relative;
+  font-size: 24px;
+  border-bottom: 1px solid grey;
+}
+.topBarContainer .topBarTab {
+  position: relative;
+  width: calc(50vw - 1px);
+  float: left;
+  height: 4vh;
+  line-height: 4vh;
+  border-right: 1px solid grey;
+}
+.topBarContainer .topBarTab:hover {
+    background-color: #3f4550;
+    cursor:pointer;
+}
+.gameWindowContainer {
+  position: relative;
+  height: 79vh;
+  border: 1px solid grey;
+}
+.helpWindowContainer {
+  position: relative;
+  height: 79vh;
+  border: 1px solid grey;
+}
+.helpWindowContainer .helpWindowSection {
+}
+.helpWindowContainer .helpWindowSection .helpWindowSectionHeader {
+}
+.helpWindowContainer .helpWindowSection .helpWindowSectionContent {
+}
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: 6vh;
+  line-height: 14px;
+  font-size: 10px;
+}
